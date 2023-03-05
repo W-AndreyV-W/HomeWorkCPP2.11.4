@@ -1,10 +1,4 @@
 #pragma once
-#ifdef TRIANGLELIBRARYDYNAMIC_EXPORTS
-#define TRIANGLELIBRARYDYNAMIC_API __declspec(dllexport)
-#else
-#define TRIANGLELIBRARYDYNAMIC_API __declspec(dllimport)
-#endif
-
 #include "Parallelogram.h"
 
 class Rectrangle :public Parallelogram {
